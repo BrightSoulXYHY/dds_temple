@@ -62,7 +62,7 @@ struct BBoxesData
 消息定义完成后就可以通过dds的命令行生成对应的cpp文件。运行下面的指令生成
 
 ```
-fastddsgen dds_msg/*.idl dds_gen
+fastddsgen dds_msg/*.idl -d dds_gen
 ```
 
 一个idl文件大概会生成四个文件，比如`BBoxData.idl`会生成下面四个文件。
